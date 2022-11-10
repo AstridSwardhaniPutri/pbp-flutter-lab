@@ -8,7 +8,6 @@
 Jika suatu widget dapat memberikan perubahan ketika berinteraksi dengan _user_ maka widget tersebut merupakan stateful tetapi jika tidak memberikan perubahan apapun maka widget tersebut merupakan stateless. Seperti contoh icon, text, iconButton, dll.
 
 ## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
-* Unordered sub-list.
 * Scaffold :sebagai fondasi halaman
 * AppBar : sebagai memuat title dalam halaman
 * Center : widget akan ditempatkan dalam letak di tengah dalam halaman

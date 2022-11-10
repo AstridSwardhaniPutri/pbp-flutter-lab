@@ -1,25 +1,30 @@
-# counter_7
+# README Tugas 7
+### Nama : Astrid Swardhani Putri
+### NPM : 2106707113
+### Kelas : D
 
-A new Flutter project.
 
-## Getting Started
+## Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
+Jika suatu widget dapat memberikan perubahan ketika berinteraksi dengan _user_ maka widget tersebut merupakan stateful tetapi jika tidak memberikan perubahan apapun maka widget tersebut merupakan stateless. Seperti contoh icon, text, iconButton, dll.
 
-This project is a starting point for a Flutter application.
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+* Unordered sub-list.
+* Scaffold :sebagai fondasi halaman
+* AppBar : sebagai memuat title dalam halaman
+* Center : widget akan ditempatkan dalam letak di tengah dalam halaman
+* Column : teknik layouting dalam column
+* Row : teknik layouting dalam row
+* Text : membuat text dan melakukan styling pada text
+* FloatingActionButton: membuat button secara fungsional dalam page
+* dsb
 
-A few resources to get you started if this is your first Flutter project:
+## Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut.
+Fungsi dari setState adalah untuk memberitahukan widget bahwa ada objek yang berubah sehingga variabel yang akan terdampak dari aktivitas tersebut adalah argumen yang berada dalam setState.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Jelaskan perbedaan antara const dengan final.
+Perbedaan dari const dan final adalah const mengharuskan adanya nilai yang dimasukan sebelum compiling sebaliknya final tidak. Namun, keduanya sama-sama membuat suatu variabel bersifat tetap.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
-Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
-Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut.
-Jelaskan perbedaan antara const dengan final.
-Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 1. Membuat flutter create counter_7
 2. Mengubah title MyHomePage menjadi Program Counter
 3. Membuat fungsi baru bernama _decrementCounter dan menambahkan code _counter-- untuk mengurangi angka

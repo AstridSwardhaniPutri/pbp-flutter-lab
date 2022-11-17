@@ -38,6 +38,11 @@ Perbedaan dari const dan final adalah const mengharuskan adanya nilai yang dimas
 ## Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
 Perbedaan dari Navigator.push dan Navigator.pushReplacement adalah .push menambah route atau page baru ke dalam stack dan cocok untuk penggunaan dengan jumlah route yang terbatas seperti satu atau dua route. Sedangkan .pushReplacement merupakan cara navigasi dengan mengganti halaman yang kita berada saat ini dengan halaman baru yang ingin dibuka. 
 ## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+* Scaffold :sebagai fondasi halaman
+* AppBar : sebagai memuat title dalam halaman
+* Center : widget akan ditempatkan dalam letak di tengah dalam halaman
+* Container : widget penampung berbagai komponen
+* Card : buat menunjukan data dalam bentuk card
 
 ## Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
 1. OnPressed

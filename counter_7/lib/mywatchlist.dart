@@ -60,7 +60,7 @@ Future<List<Movie>> loadData() async {
   List<Movie> myWatchlists = [];
 
   try {
-    final url = "https://tugas-1-pbp.herokuapp.com/mywatchlist/json/";
+    final url = "https://tugas-2-pbp-astrid.herokuapp.com/mywatchlist/json";
 
     final res = await http.get(Uri.parse(url), headers: {
       "Access-Control-Allow-Origin": "*",

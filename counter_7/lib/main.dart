@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:counter_7/tambahBudget.dart';
 import 'package:counter_7/dataBudget.dart';
 
-import 'package:counter_7/mywatchlist_detail.dart';
+import 'package:counter_7/mywatchlist.dart';
 
 void main() {
   runApp(const MyApp());
@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   // Route menu ke halaman form
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => const MyWatchlistDetailPage()),
+                    MaterialPageRoute(builder: (context) => const ShowWatchlist()),
                   );
                 },
               ),

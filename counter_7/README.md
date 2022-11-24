@@ -38,6 +38,11 @@ Perbedaan dari const dan final adalah const mengharuskan adanya nilai yang dimas
 ## Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
 Perbedaan dari Navigator.push dan Navigator.pushReplacement adalah .push menambah route atau page baru ke dalam stack dan cocok untuk penggunaan dengan jumlah route yang terbatas seperti satu atau dua route. Sedangkan .pushReplacement merupakan cara navigasi dengan mengganti halaman yang kita berada saat ini dengan halaman baru yang ingin dibuka. 
 ## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+* Scaffold :sebagai fondasi halaman
+* AppBar : sebagai memuat title dalam halaman
+* Center : widget akan ditempatkan dalam letak di tengah dalam halaman
+* Container : widget penampung berbagai komponen
+* Card : buat menunjukan data dalam bentuk card
 
 ## Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
 1. OnPressed
@@ -52,3 +57,17 @@ Dalam FLutter, screen disebut dengan routes dan routes juga merupakan widget. Wi
 2. Membuat page baru yaitu page form dan page untuk menampilkan data dari form
 3. Melakukan setup seperti membuat TextFormField untuk judul dan nominal dan ListTile dengan jenis dropdown untuk pilihan tipe atau jenis data
 4. Lalu dilakukan integrasi data dari form untuk ditunjukan dalam file menunjukan data dengan melakukan import data dari file main, form, dan dataBudget
+
+# README Tugas 9
+
+## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Mungkin saja bisa, tetapi pengambilan data tanpa menggunakan kostumisasi model bukan merupakan best practice. Hal ini disebabkan pengambilan data dengan membuat model membantu agar programmer melakukan kesalahan seminimal mungkin dengan dibantu oleh http get.
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+
+## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+1. Melakukan kostumisasi model
+2. Mengambil data dengan http get secara asynchron
+3. Lalu gunakan futurebuilder untuk menampilkan data
+
+## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+Membuat file dart baru bernama mywatchlis, kemudian dilakukan konversi json ke dart dengan menggunakan quicktype. Lalu, lakukan kostumisasi dalam file mywatchlist sesuai dengan data-data yang dibutuhkan untuk perfilm. Lalu, tambahkan listTile tambahan untuk menambahkan watch list dalam drawer. Lalu, lakukan kostumisasi untuk menampilkan data-data dari json tersebut ke dalam tampilan UI flutter.

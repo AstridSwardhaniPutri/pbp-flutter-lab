@@ -57,3 +57,17 @@ Dalam FLutter, screen disebut dengan routes dan routes juga merupakan widget. Wi
 2. Membuat page baru yaitu page form dan page untuk menampilkan data dari form
 3. Melakukan setup seperti membuat TextFormField untuk judul dan nominal dan ListTile dengan jenis dropdown untuk pilihan tipe atau jenis data
 4. Lalu dilakukan integrasi data dari form untuk ditunjukan dalam file menunjukan data dengan melakukan import data dari file main, form, dan dataBudget
+
+# README Tugas 9
+
+## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Mungkin saja bisa, tetapi pengambilan data tanpa menggunakan kostumisasi model bukan merupakan best practice. Hal ini disebabkan pengambilan data dengan membuat model membantu agar programmer melakukan kesalahan seminimal mungkin dengan dibantu oleh http get.
+## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+*Scaffold
+
+## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+1. Melakukan kostumisasi model
+2. Mengambil data dengan http get secara asynchron
+3. Lalu gunakan futurebuilder untuk menampilkan data
+
+## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.

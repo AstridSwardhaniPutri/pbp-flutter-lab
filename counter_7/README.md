@@ -63,7 +63,6 @@ Dalam FLutter, screen disebut dengan routes dan routes juga merupakan widget. Wi
 ## Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
 Mungkin saja bisa, tetapi pengambilan data tanpa menggunakan kostumisasi model bukan merupakan best practice. Hal ini disebabkan pengambilan data dengan membuat model membantu agar programmer melakukan kesalahan seminimal mungkin dengan dibantu oleh http get.
 ## Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
-*Scaffold
 
 ## Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
 1. Melakukan kostumisasi model
@@ -71,3 +70,4 @@ Mungkin saja bisa, tetapi pengambilan data tanpa menggunakan kostumisasi model b
 3. Lalu gunakan futurebuilder untuk menampilkan data
 
 ## Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+Membuat file dart baru bernama mywatchlis, kemudian dilakukan konversi json ke dart dengan menggunakan quicktype. Lalu, lakukan kostumisasi dalam file mywatchlist sesuai dengan data-data yang dibutuhkan untuk perfilm. Lalu, tambahkan listTile tambahan untuk menambahkan watch list dalam drawer. Lalu, lakukan kostumisasi untuk menampilkan data-data dari json tersebut ke dalam tampilan UI flutter.
